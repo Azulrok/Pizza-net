@@ -1,0 +1,22 @@
+.caixa {
+    align-items: flex-end;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.destaques__titulo {
+    background: rgba(0, 0, 0, .5);
+    color: #fdfdfd;
+    padding: .6rem;
+    text-align: center;
+    width: 100%;
+}
+.calabressa {
+    position:absolute;
+    
+    left: 90px;
+    top: 70px;
+  }
+
