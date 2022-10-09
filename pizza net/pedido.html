@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Net Pedido</title>
+    <link rel="icon" href="assets/img/Boy2.png">
+    <link href="./assets/css/menu.css" rel="stylesheet">
+    
+</head>
+<body>
+  
+    <center>
+    <div class="button">
+    <nav class="menu__link">
+    <a href="pizzanet.html" class="button">Inicio</a>
+    <a href="historia.html" class="button">Nossa historia</a>
+    <a href="nossaslojas.html" class="button">nossas Lojas</a>
+    <a href="pecaaqui.html" class="button">Peça aqui</a>
+    <a href="contato.html" class="button">Contato</a>
+    </div>
+    </nav>
+    </center>
+    <center>
+      <br>
+
+    <div class="conteudo__pedido">
+        <h1>Pedido</h1>
+    
+        <form action="/action_page.php">
+        <p class="p2">  <label for="pname">Nome para o pedido:</label>
+          <input type="text" id="fname" name="nome" placeholder="nome para contato*"required>
+          <br>
+          <label for="phone">Telefone para contato:</label>
+          <input type="tel" id="phone" name="phone"
+           placeholder="99345-5678*" pattern="[0-9]{3}[0-9]{3}[0-9]{3}" required>
+
+          <label for="e-mail" >Insira seu E-mail:</label>
+         <input type="e-mail" id="E-mail" name="e-mail"
+         placeholder="Insira seu E-mail*"required >
+
+         <p class="p2">  <label for="ender">Endereço:</label>
+          <input type="text" id="ender" name="endereco" placeholder="Endereço de entrega *"required>
+          <br>
+            
+         <h2>Tamanho da pizza</h2>
+          
+         <h4><input type="radio" id="tamanho" name="tamanho" value="tamanho">
+         <label for="tamanho">25Cm </label><br>
+         <input type="radio" id="tamanho" name="tamanho" value="tamanho">
+         <label for="tamanho">35Cm</label><br>
+         <input type="radio" id="tamanho" name="tamanho" value="tamanho">
+         <label for="tamanho">45Cm</label><br>
+         <input type="radio" id="tamanho" name="tamanho" value="tamanho">
+         <label for="tamanho">65Cm </label><br></h4>
+
+         <br>
+         <h2>Forma de pagamento</h2>
+          
+         <h4><input type="radio" id="pg" name="pg" value="pg">
+         <label for="pg">Dinheiro </label><br>
+         <h4><input type="radio" id="pg" name="pg" value="pg">
+          <label for="pg">Credito </label><br>
+          <h4><input type="radio" id="pg" name="pg" value="pg">
+            <label for="pg">Débito </label><br>
+        <br></h4>
+
+         Observações do Pedido
+        <textarea style="resize: none" id="textarea" maxlength="100" rows="10" cols="50" placeholder="Coloque suas observaçoes de acordo com o pedido"> </textarea>
+         
+        <input type="checkbox" id="notificacao" name="notificacao" value="notificacao">
+        <label for="notificacao"> Receber promoções por email e telefone</label><br>
+
+      </div>    
+
+        <br> <a href="agradecimento.html" class="button">enviar</a>
+         
+
+      </form>
+      <br>
+      
+</div>
+
+</center>
+   <footer id="rodape">
+    
+    Todos direitos reservados &copy;
+   </footer>
+
+
+</body>
+</html>
